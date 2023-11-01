@@ -13,8 +13,8 @@
     --secondary-color-2: #564B5A;
     --primary-bg-color: #eff7ff;
     --secondary-bg-color: #E3E9F2;
-    --line_color: #555555;
-    --back_color: #bcbec898;
+    --line-color: #555555;
+    --back-color: #bcbec898;
 }
 
 body {
@@ -133,7 +133,7 @@ main {
     text-decoration: none;
     font-size: 14px;
     font-weight: bold;
-    color: var(--line_color);
+    color: var(--line-color);
     letter-spacing: 2px;
     transition: all .3s ease;
 }
@@ -154,7 +154,7 @@ main {
     position: absolute;
     height: 3px;
     border-radius: 2px;
-    background: var(--line_color);
+    background: var(--line-color);
     transition: all .5s ease;
 }
 
@@ -198,7 +198,7 @@ main {
     height: 100%;
     box-sizing: border-box;
     border-radius: 300px;
-    border: solid 3px var(--line_color);
+    border: solid 3px var(--line-color);
 }
 
 .button-line:nth-child(1),
@@ -303,7 +303,7 @@ main {
 .button-drow2,
 .button-drow2::before,
 .button-drow2::after {
-    background: var(--back_color);
+    background: var(--back-color);
 }
 
 .button:hover .button-drow1 {
@@ -410,7 +410,7 @@ main {
     display: flex;
     justify-content: space-between;
     column-gap: 20px;
-    padding: 0px 20px 60px 20px;
+    padding: 0px 20px 80px 20px;
 }
 
 .feature-card {
