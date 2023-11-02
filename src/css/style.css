@@ -93,9 +93,12 @@ nav ul li a:hover {
 }
 
 main {
+    background-color: var(--secondary-bg-color);
+}
+
+container{
     margin: 0 30px;
     padding: 0 20px;
-    background-color: var(--secondary-bg-color);
 }
 
 #hero {
@@ -104,10 +107,30 @@ main {
     height: 90vh;
 }
 
+
 .hero-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-image{
+        height: 100%;
+        width: auto;
+
+}
+
+.hero-image img {
+    height: 100%;
+    width: auto;
+}
+
+.hero-content .hero-align{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
 }
 
@@ -117,7 +140,7 @@ main {
     flex-direction: column;
     max-width: 600px;
     align-items: center;
-    text-align: center;
+    text-align:center;
     justify-content: center;
 }
 
@@ -396,17 +419,17 @@ main {
 }
 
 
-#features{
+#features {
     background-color: var(--primary-color);
 
 }
 
-#features h2{
+#features h2 {
     text-align: center;
     padding: 60px;
 }
 
-.cards{
+.cards {
     display: flex;
     justify-content: space-between;
     column-gap: 20px;
@@ -497,7 +520,7 @@ main {
     left: 0;
     width: 100%;
     display: grid;
-    grid-template-row: auto auto;
+    grid-template-rows: auto auto;
     gap: 0.5ch;
     background: hsl(0 0% 100% / 0.5);
     backdrop-filter: blur(var(--blur));
@@ -538,4 +561,45 @@ main {
 
 .team-card:is(:hover, :focus-visible) {
     --hover: 1;
+}
+
+
+.gallery-wrap {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70vh;
+}
+
+.item {
+    flex: 1;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    transition: flex 0.8s ease;
+
+    &:hover {
+        flex: 7;
+    }
+}
+
+.item-1 {
+    background-image: url('/src/images/tattoo5.jpg');
+}
+
+.item-2 {
+    background-image: url('/src/images/tattoo4.jpg');
+}
+
+.item-3 {
+    background-image: url('/src/images/tattoo6.jpg');
+}
+
+.item-4 {
+    background-image: url('/src/images/tattoo3.jpg');
+}
+
+.item-5 {
+    background-image: url('/src/images/tattoo10.jpg');
 }
