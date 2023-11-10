@@ -16,7 +16,9 @@
     --line-color: #555555;
     --back-color: #bcbec898;
 }
-
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
 body {
     font-family: 'Inter', sans-serif;
     font-family: 'Open Sans', sans-serif;
@@ -434,26 +436,26 @@ main {
     color: #E3E9F2;
 }
 
-.features-card{
+.features-card {
     width: 1000px;
     position: relative;
     display: flex;
     justify-content: space-between;
 }
 
-.features-card .card{
+.features-card .card {
     position: relative;
     cursor: pointer;
 }
 
-.features-card .card .face{
+.features-card .card .face {
     width: 300px;
     height: 200px;
     transition: 0.5s;
-    
+
 }
 
-.features-card .card .face.face1{
+.features-card .card .face.face1 {
     position: relative;
     background: #564b5a;
     display: flex;
@@ -463,27 +465,27 @@ main {
     transform: translateY(100px);
 }
 
-.features-card .card:hover .face.face1{
+.features-card .card:hover .face.face1 {
     background: #231123;
     transform: translateY(0);
 }
 
-.features-card .card .face.face1 .content{
+.features-card .card .face.face1 .content {
     justify-content: center;
     align-items: center;
     opacity: 0.5;
     transition: 0.5s;
 }
 
-.features-card .card:hover .face.face1 .content{
+.features-card .card:hover .face.face1 .content {
     opacity: 1;
 }
 
-.features-card .card .face.face1 .content img{
+.features-card .card .face.face1 .content img {
     max-width: 100px;
 }
 
-.features-card .card .face.face1 .content h3{
+.features-card .card .face.face1 .content h3 {
     margin: 10px 0 0;
     padding: 0;
     color: #fff;
@@ -491,7 +493,7 @@ main {
     font-size: 1.5em;
 }
 
-.features-card .card .face.face2{
+.features-card .card .face.face2 {
     position: relative;
     background: #fff;
     display: flex;
@@ -503,18 +505,18 @@ main {
     transform: translateY(-100px);
 }
 
-.features-card .card:hover .face.face2{
+.features-card .card:hover .face.face2 {
     transform: translateY(0);
 }
 
-.features-card .card .face.face2 .content p{
+.features-card .card .face.face2 .content p {
     margin: 0;
     padding: 0;
 }
 
-.features-card .card .face.face2 .content a{
+.features-card .card .face.face2 .content a {
     margin: 15px 0 0;
-    display:  inline-block;
+    display: inline-block;
     text-decoration: none;
     font-weight: 900;
     color: #333;
@@ -522,7 +524,7 @@ main {
     border: 1px solid #333;
 }
 
-.features-card .card .face.face2 .content a:hover{
+.features-card .card .face.face2 .content a:hover {
     background: #231123;
     color: #fff;
 }
@@ -612,9 +614,10 @@ main {
     --hover: 1;
 }
 
-#gallery{
+#gallery {
     background-color: #ffffff;
 }
+
 #gallery h2 {
     text-align: center;
     padding: 60px;
@@ -663,18 +666,17 @@ main {
 
 
 
-#testimonials{
-text-align: center;
-justify-content: center;
-padding-bottom: 120px;
+#testimonials {
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 120px;
 }
 
 #testimonials h2 {
     padding: 60px;
 }
-@import url(https://fonts.googleapis.com/css?family=Lato);
-@import url(https://fonts.googleapis.com/css?family=Oswald);
-@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+
+
 
 .testimonial-post {
     position: relative;
@@ -688,7 +690,7 @@ padding-bottom: 120px;
     text-align: center;
     font-size: 16px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
-    
+
 }
 
 .testimonial-post * {
@@ -696,9 +698,10 @@ padding-bottom: 120px;
     box-sizing: border-box;
 }
 
-.testimonial-post p{
+.testimonial-post p {
     color: #ffffff;
 }
+
 .testimonial-post img {
     max-width: 100%;
     vertical-align: top;
@@ -737,7 +740,7 @@ padding-bottom: 120px;
 
 .testimonial-post h3 {
     font-family: 'Oswald';
-    color: #eff7ff ;
+    color: #eff7ff;
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 400;
@@ -751,3 +754,185 @@ padding-bottom: 120px;
     color: #bbb;
     letter-spacing: 1px;
 }
+
+
+  
+  #contact {
+    border: solid 3px #474544;
+    max-width: 768px;
+    margin: 60px auto;
+    position: relative;
+  }
+  
+  form {
+    padding: 37.5px;
+    margin: 50px 0;
+  }
+  
+  h1 {
+    color: #474544;
+    padding: 0.5em;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 7px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .underline {
+    border-bottom: solid 2px #474544;
+    margin: 0.1em auto;
+    width: 80px;
+  }
+  
+  
+  .email {
+      float: right;
+      width: 45%;
+  }
+  
+  input[type='text'], [type='email'], select, textarea {
+      background: none;
+    border: none;
+      border-bottom: solid 2px #474544;
+      color: #474544;
+      font-size: 1.000em;
+    font-weight: 400;
+    letter-spacing: 1px;
+      margin: 0em 0 1.875em 0;
+      padding: 0 0 0.875em 0;
+    text-transform: uppercase;
+      width: 100%;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+      -o-box-sizing: border-box;
+      box-sizing: border-box;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -ms-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s;
+  }
+  
+  input[type='text']:focus, [type='email']:focus, textarea:focus {
+      outline: none;
+      padding: 0 0 0.875em 0;
+  }
+  
+  .message {
+      float: none;
+  }
+  
+  .name {
+      float: left;
+      width: 45%;
+  }
+  
+  select {
+    background: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-32.png') no-repeat right;
+    outline: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+  }
+  
+  select::-ms-expand {
+    display: none;
+  }
+  
+  .subject {
+    width: 100%;
+  }
+  
+  .telephone {
+    width: 100%;
+  }
+  
+  textarea {
+      line-height: 150%;
+      height: 150px;
+      resize: none;
+    width: 100%;
+  }
+  
+  ::-webkit-input-placeholder {
+      color: #474544;
+  }
+  
+  :-moz-placeholder { 
+      color: #474544;
+      opacity: 1;
+  }
+  
+  ::-moz-placeholder {
+      color: #474544;
+      opacity: 1;
+  }
+  
+  :-ms-input-placeholder {
+      color: #474544;
+  }
+  
+  #form_button {
+    background: none;
+    border: solid 2px #474544;
+    color: #474544;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Helvetica', Arial, sans-serif;
+    font-size: 0.875em;
+    font-weight: bold;
+    outline: none;
+    padding: 20px 35px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -ms-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s;
+  }
+  
+  #form_button:hover {
+    background: #474544;
+    color: #F2F3EB;
+  }
+  
+  @media screen and (max-width: 768px) {
+    #contact {
+      margin: 20px auto;
+      width: 95%;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    h1 {
+      font-size: 26px;
+    }
+    
+    .underline {
+      width: 68px;
+    }
+    
+    #form_button {
+      padding: 15px 25px;
+    }
+  }
+  
+  @media screen and (max-width: 420px) {
+    h1 {
+      font-size: 18px;
+    }
+    
+    .icon {
+      height: 35px;
+      width: 35px;
+    }
+    
+    .underline {
+      width: 53px;
+    }
+    
+    input[type='text'], [type='email'], select, textarea {
+      font-size: 0.875em;
+    }
+  }
